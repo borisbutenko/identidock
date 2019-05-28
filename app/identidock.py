@@ -10,7 +10,7 @@ cache = redis.StrictRedis(host="redis",
                           port=6379,
                           db=0)
 salt = "UNIQUE_SALT"
-default_name = "Your name?"
+default_name = ""
 
 
 @app.route("/", methods=["GET", "POST"])
